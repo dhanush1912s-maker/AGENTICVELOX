@@ -1,5 +1,0 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{HTTP_HOST} ^www\.agenticvelox\.com [NC]
-  RewriteRule ^(.*)$ https://agenticvelox.com/$1 [R=301,L]
-</IfModule>
