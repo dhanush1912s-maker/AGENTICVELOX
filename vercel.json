@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.agenticvelox.com"
+        }
+      ],
+      "destination": "https://agenticvelox.com/:path*",
+      "permanent": true
+    }
+  ]
+}
