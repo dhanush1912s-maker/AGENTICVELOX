@@ -1,0 +1,9 @@
+# Large binary archives not needed for web hosting
+ffmpeg-8.1.2.tar.xz
+*.tar.xz
+*.tar.gz
+*.zip
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
